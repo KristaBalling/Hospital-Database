@@ -6,4 +6,12 @@ public class Doctor extends Employee {
         super(id, name, department, working);
         System.out.println("Doctor in action...");
     }
+
+    private void prescribeMedicine(){
+        System.out.println("Diagnosing Patient");
+    }
+
+    private void diagnosePatients(){
+        System.out.println("Diagnosing patient area");
+    }
 }

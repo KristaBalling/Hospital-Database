@@ -13,26 +13,5 @@ public class HospitalManagement {
         }
     }
 
-    //Nurses
-    private void checkVitalSigns(){
-        System.out.println("checking vitals");
-    }
-
-    private void drawBlood(){
-        System.out.println("drawing blood");
-    }
-
-    private void cleanPatientArea(){
-        System.out.println("cleaning patient area");
-    }
-
-    //Doctors
-    private void prescribeMedicine(){
-        System.out.println("Diagnosing Patient");
-    }
-
-    private void diagnosePatients(){
-        System.out.println("Diagnosing patient area");
-    }
 
 }
