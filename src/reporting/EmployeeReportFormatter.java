@@ -9,4 +9,8 @@ public class EmployeeReportFormatter extends ReportFormatter {
         //TODO Auto-generated constructor stub
     }
 
+    public String getFormattedEmployee(){
+        return getFormattedValue();
+    }
+
 }
